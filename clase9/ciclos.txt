@@ -1,0 +1,15 @@
+es una estructura  de contro
+
+
+for
+
+
+debe tener
+
+iniciacionde valor;
+condicion;
+incremento;
+
+{
+condicion
+}
