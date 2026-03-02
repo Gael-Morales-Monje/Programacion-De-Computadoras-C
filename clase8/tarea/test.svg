@@ -1,0 +1,17 @@
+<svg width='1000' height='1000' xmlns='http://www.w3.org/2000/svg'>
+<circle r='15' fill='lime' >
+<animateMotion dur='10' repeatCount='indefinite' path='M 117,146,95,164,135,127,100,33,39,141 Z'></animateMotion>
+</circle>
+<circle r='15' fill='purple' >
+<animateMotion dur='8' repeatCount='indefinite' path='M 95,164,135,127,100,33,39,141,117,146 Z'></animateMotion>
+</circle>
+<circle r='15' fill='red' >
+<animateMotion dur='6' repeatCount='indefinite' path='M 135,127,100,33,39,141,117,146,95,164 Z'></animateMotion>
+</circle>
+<circle r='15' fill='blue' >
+<animateMotion dur='4' repeatCount='indefinite' path='M 100,33,39,141,117,146,95,164,135,127 Z'></animateMotion>
+</circle>
+<circle r='15' fill='orange' >
+<animateMotion dur='2' repeatCount='indefinite' path='M 39,141,117,146,95,164,135,127,100,33 Z'></animateMotion>
+</circle>
+</svg>
