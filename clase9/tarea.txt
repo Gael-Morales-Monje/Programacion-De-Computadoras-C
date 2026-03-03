@@ -1,0 +1,1 @@
+hacer 5 banderas simples usando bucles y .ppm
