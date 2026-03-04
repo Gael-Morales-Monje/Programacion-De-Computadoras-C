@@ -1,0 +1,11 @@
+hacer:
+
+-bandera cuba
+-bandera suiza
+
+
+
+
+con cruzes, triangulos 
+
+se pude usar ciclos anidados
