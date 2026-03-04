@@ -14,4 +14,4 @@
 <circle r='15' fill='orange' >
 <animateMotion dur='2' repeatCount='indefinite' path='M 95,164,117,146,39,141,100,33,135,127 Z'></animateMotion>
 </circle>
-</svg>
+<text x='100' y='200'>Gael Morales Monje, 2216044x</text></svg>

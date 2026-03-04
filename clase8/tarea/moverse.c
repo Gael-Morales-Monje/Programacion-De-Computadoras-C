@@ -64,6 +64,8 @@ int main() {
 	printf("<circle r='15' fill='orange' >\n");
 	printf("<animateMotion dur='2' repeatCount='indefinite' path='M %d,%d,%d,%d,%d,%d,%d,%d,%d,%d Z'></animateMotion>\n",num9,num10,num1,num2,num3,num4,num5,num6,num7,num8);
 	printf("</circle>\n");
+	
+	printf("<text x='100' y='200'>Gael Morales Monje, 2216044x</text>" );	
 	printf("</svg>");
 
 
