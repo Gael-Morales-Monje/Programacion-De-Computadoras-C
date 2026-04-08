@@ -3,9 +3,9 @@
 
 int main () {
     
-    float x[111], y[111];
+    float x[142], y[142];
 
-    for (int i = 0;i<111;i++) {
+    for (int i = 0;i<142;i++) {
 
         scanf("%f %f", &x[i], &y[i]);
 
@@ -38,7 +38,7 @@ int main () {
         }
         printf("\n");
     }
-
+    // printf("%f",x[141]);
     fclose(file);
 
     return 0;
