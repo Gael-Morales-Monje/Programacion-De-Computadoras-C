@@ -14,7 +14,7 @@ int main() {
         r = rand() % 256;
         g = rand() % 256;
         b = rand() % 256;
-        printf("<polygon stroke='rgb(%d,%d,%d)' stroke-width='0' fill='rgb(%d,%d,%d)' points='", r, g, b, b,g,r);
+        printf("<polygon stroke='rgb(%d,%d,%d)' stroke-width='1' fill='rgb(%d,%d,%d)' points='", r, g, b, b,g,r);
         float x, y;
         for (int i = 0; i < n; i++) {
             scanf("%f %f", &x, &y);

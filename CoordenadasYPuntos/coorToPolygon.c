@@ -12,7 +12,7 @@ int main () {
     }
 
     FILE *file;
-    file = fopen("../CoordenadasYPuntos/poligonos.txt", "r");
+    file = fopen("poligonos.txt", "r");
     int lines = 0;
     char ch;
     while ((ch = fgetc(file)) != EOF) {
@@ -34,7 +34,7 @@ int main () {
             int value;
             fscanf(file, " %d", &value);
 
-            printf("%f %f ",x[value-1], y[value-1]);
+            printf("%f %f ",x[value-1]*35.8, y[value-1]*35.8);
         }
         printf("\n");
     }

@@ -24,7 +24,7 @@ int main() {
 		printf("z'></animateMotion></circle>");
 		b = b + 0.1;
 	}
-
+	b = 0;
 	for(int i = 0;i<50;i++){
 		printf("<circle r='15' fill='rgb(%d,%d,%d)'>",rand()%256,rand()%256,rand()%256);
 		printf("<animateMotion dur='10s' begin='%f' repeatCount='indefinite' path='M",b);
@@ -34,6 +34,7 @@ int main() {
 		printf("z'></animateMotion></circle>");
 		b = b + 0.1;
 	}
+	b = 0;
 	for(int i = 0;i<50;i++){
 		printf("<circle r='15' fill='rgb(%d,%d,%d)'>",rand()%256,rand()%256,rand()%256);
 		printf("<animateMotion dur='10s' begin='%f' repeatCount='indefinite' path='M",b);
@@ -43,6 +44,7 @@ int main() {
 		printf("z'></animateMotion></circle>");
 		b = b + 0.1;
 	}
+	b = 0;
 	for(int i = 0;i<50;i++){
 		printf("<circle r='15' fill='rgb(%d,%d,%d)'>",rand()%256,rand()%256,rand()%256);
 		printf("<animateMotion dur='10s' begin='%f' repeatCount='indefinite' path='M",b);
@@ -52,6 +54,7 @@ int main() {
 		printf("z'></animateMotion></circle>");
 		b = b + 0.1;
 	}
+	b = 0;
 	for(int i = 0;i<50;i++){
 		printf("<circle r='15' fill='rgb(%d,%d,%d)'>",rand()%256,rand()%256,rand()%256);
 		printf("<animateMotion dur='10s' begin='%f' repeatCount='indefinite' path='M",b);
@@ -61,6 +64,7 @@ int main() {
 		printf("z'></animateMotion></circle>");
 		b = b + 0.1;
 	}
+	b = 0;
 	for(int i = 0;i<50;i++){
 		printf("<circle r='15' fill='rgb(%d,%d,%d)'>",rand()%256,rand()%256,rand()%256);
 		printf("<animateMotion dur='10s' begin='%f' repeatCount='indefinite' path='M",b);
@@ -70,6 +74,7 @@ int main() {
 		printf("z'></animateMotion></circle>");
 		b = b + 0.1;
 	}
+	b = 0;
 	for(int i =60;i<50;i++){
 		printf("<circle r='15' fill='rgb(%d,%d,%d)'>",rand()%256,rand()%256,rand()%256);
 		printf("<animateMotion dur='10s' begin='%f' repeatCount='indefinite' path='M",b);
@@ -79,6 +84,7 @@ int main() {
 		printf("z'></animateMotion></circle>");
 		b = b + 0.1;
 	}
+	b = 0;
 	for(int i = 0;i<50;i++){
 		printf("<circle r='15' fill='rgb(%d,%d,%d)'>",rand()%256,rand()%256,rand()%256);
 		printf("<animateMotion dur='10s' begin='%f' repeatCount='indefinite' path='M",b);
@@ -88,6 +94,7 @@ int main() {
 		printf("z'></animateMotion></circle>");
 		b = b + 0.1;
 	}
+	b = 0;
 	for(int i = 0;i<50;i++){
 		printf("<circle r='15' fill='rgb(%d,%d,%d)'>",rand()%256,rand()%256,rand()%256);
 		printf("<animateMotion dur='10s' begin='%f' repeatCount='indefinite' path='M",b);
@@ -97,6 +104,7 @@ int main() {
 		printf("z'></animateMotion></circle>");
 		b = b + 0.1;
 	}
+	b = 0;
 	for(int i = 0;i<50;i++){
 		printf("<circle r='15' fill='rgb(%d,%d,%d)'>",rand()%256,rand()%256,rand()%256);
 		printf("<animateMotion dur='10s' begin='%f' repeatCount='indefinite' path='M",b);
