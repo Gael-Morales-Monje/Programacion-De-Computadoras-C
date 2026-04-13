@@ -51,13 +51,18 @@ int main() {
 
         printf("'></animateMotion>\n");
 
-        int rad = rand() %9 + 2;
-        printf("<circle  r='%d' fill='rgb(%d,%d,%d)'>\n", rad, rand() % 256, rand() % 256, rand() % 256);
-        printf("<animateMotion dur='10s' repeatCount='indefinite' path='M");
-        for (int i = 0; i < n; i++) {
-            printf("%f,%f ", cx[i]-promX, cy[i]-promY);
+
+        for (int k = 0; k < 30;k++ ) {
+            int rad = rand() %9 + 2;
+            printf("<circle  r='%d' fill='rgb(%d,%d,%d)'>\n", rad, rand() % 256, rand() % 256, rand() % 256);
+            printf("<animateMotion dur='%ds' begin='%fs' repeatCount='indefinite' path='M",rand()%13+5,k/10.0);
+            for (int i = 0; i < n; i++) {
+                printf("%f,%f ", cx[i]-promX, cy[i]-promY);
+            }
+            printf("z'></animateMotion></circle>\n");
+
         }
-        printf("z'></animateMotion></circle>\n");
+
 
         printf("</g>\n");
 
