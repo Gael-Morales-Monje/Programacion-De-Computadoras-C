@@ -1,0 +1,391 @@
+Lógica Digital
+Lógica Digital
+2013
+Transversal de Programación Básica
+Proyecto Curricular de Ingeniería de Sistemas
+1Lógica Digital
+La lógica es una disciplina que estudia la estructura, el fundamento y el uso de las
+expresiones del lenguaje humano. Se usa en el diario vivir y una de sus principales
+tareas es la de proporcionar las reglas por medio de las cuales se puede determinar
+cuando un razonamiento o argumento es válido. Otro ejemplo donde la lógica juega
+un papel fundamental es en el diseño de circuitos digitales. También es fundamental
+en matemáticas y en sus demostraciones
+Proposiciones
+Una proposición es un enunciado o una oración que puede ser falsa o verdadera pero
+no ambas a la vez. Una proposición es verificable, por ende, es un elemento
+fundamental de la lógica matemática y de la lógica digital.
+A continuación se tienen algunos ejemplos de enunciados que son proposiciones y
+algunos que no lo son, se explica el porqué algunos de estos enunciados no son, como
+tal, proposiciones. Las proposiciones se indican por medio de una letra minúscula, dos
+puntos y la proposición propiamente dicha. Por ejemplo.
+p: La tierra es plana.
+q: ‐12 + 28 = 21
+r: x > y + 1
+s: El Cortulua será campeón en la presente temporada de Fútbol colombiano.
+t: Hola ¿Qué tal?
+v: Bogotá es la capital de Colombia
+w: Lava el coche, por favor.
+Los incisos p y q sabemos que pueden tomar un valor de falso o verdadero; por lo
+tanto son proposiciones validas. El inciso r también es una proposición valida, aunque
+el valor de falso o verdadero depende del valor asignado a las variables x y y en
+determinado momento y v es una proposición verdadera. La proposición del inciso s
+también esta perfectamente expresada aunque para decir si es falsa o verdadera se
+tendría que esperar a que terminara la temporada de fútbol. Sin embargo los
+enunciados t y w no son válidos, ya que no pueden tomar un valor de falso o
+verdadero, uno de ellos es un saludo y el otro es una orden
+Oraciones que son proposiciones:
+a. El semáforo está verde.
+b. Los autos pueden avanzar.
+c. Hoy es 17 de marzo.
+d. Hoy es jueves.
+e. 4 es un número par.
+Oraciones que no son proposiciones:
+a. Deténgase.
+2Lógica Digital
+b. Quien viene?
+c. Es divertido este curso?
+d. Si x2 = 9 entonces x= 3
+Conectores Lógicos Y Proposiciones Compuestas
+Las proposiciones anteriores son todas, proposiciones simples. Para obtener
+proposiciones compuestas se deben ligar o combinar más de una proposición simple.
+Existen conectores u operadores lógicos que permiten formar proposiciones
+compuestas (formadas por varias proposiciones simples).
+Las proposiciones compuestas son de algunos de los tres tipos siguientes:
+Definición 1
+Una proposición compuesta es una ley lógica o tautológica si es verdadera
+independientemente de los valores de verdad que se asignen a las proposiciones
+simples que la componen. Es decir que una ley lógica o tautología es una proposición
+que es verdadera en cualquier circunstancia.
+Definición 2
+Una proposición compuesta es una contradicción si es falsa independientemente de
+los valores de verdad que se asignen a las proposiciones simples que la componen. Es
+decir que es falsa en cualquier circunstancia.
+Definición 3
+Una proposición compuesta es contingencia si no es una tautología ni una
+contradicción.
+Una tabla de verdad muestra los valores de verdad de una proposición compuesta
+para todos los posibles casos, de verdad o falsedad, de las proposiciones simples. En
+el lenguaje coloquial una misma expresión puede darse de distintas formas. En lógica
+dos proposiciones compuestas son lógicamente equivalentes si tienen igual valor de
+verdad, para el mismo juego de verdades de las proposiciones simples que la
+componen. Formalmente,
+Definición 4
+Dos proposiciones p y q son lógicamente equivalentes, lo denotamos p ≡ q; si tienen
+la misma tabla de verdad.
+Definición 5
+La negación de la proposición p, es la proposición ~ p (se lee no p) que es verdadera
+cuando p es falsa, y es falsa cuando p es verdadera
+3Lógica Digital
+Los operadores o conectores básicos son: y, o, no, no o, no y, o exclusiva, no o
+exclusiva.
+a. Operador and (y) ‐ Operación Conjunción
+Se utiliza para conectar dos proposiciones que se deben cumplir (ser verdaderas) para
+que se pueda obtener un resultado verdadero. Su símbolo es: {Ù , un punto (.), un
+paréntesis, o también, Ç }. Se le conoce como la multiplicación lógica (en la
+matemática booleana):
+Algunos ejemplos son:
+1. La proposición "El coche enciende cuando tiene gasolina en el tanque y tiene
+corriente la batería" está formada por dos proposiciones simples: q y r
+q: Tiene gasolina el tanque.
+r: Tiene corriente la batería.
+Con p: El coche enciende.
+De tal manera que la representación del enunciado anterior usando simbología lógica
+es como sigue:
+p=qÙr
+Su tabla de verdad es como sigue:
+qrp=qÙr
+1
+1
+0
+01
+0
+1
+01
+0
+0
+0
+Donde;
+1 = verdadero 0 = falso
+En la tabla anterior el valor de q = 1 significa que el tanque tiene gasolina, r = 1
+significa que la batería tiene corriente y p = q Ù r = 1 significa que el coche puede
+encender. Se puede notar que si q o r valen cero implica que el auto no tiene gasolina
+o no tiene corriente la batería y que, por lo tanto, el carro no puede encender.
+2. La ciudad x está en Francia y es su capital es una proposición compuesta por las
+proposiciones simples:
+4Lógica Digital
+p: La ciudad x está en Francia. Qué es verdadera solo para todas las ciudades x que
+estén en Francia de lo contrario será falsa y,
+r: La ciudad x es capital de Francia. Qué es verdadera solo si x es Paris de lo contrario
+será falsa
+Con ello la proposición compuesta q: p Ù r será verdadera solo si x es Paris, de lo
+contrario será falsa, como lo muestra la tabal correspondiente.
+prq=pÙr
+111
+100
+010
+000
+El operador y en la teoría de conjuntos equivale a la operación de intersección, por
+ello se le puede representar como lo muestra la figura siguiente:
+También tiene representación circuital con interruptores, como aparece en la figura
+siguiente. Si los dos interruptores están cerrados (indicando verdadero o "1" lógico) la
+lámpara se enciende de lo contrario no.
+Circuito con interruptores que representa la función lógica
+Conjunción (AND) p Ù r
+5Lógica Digital
+b. Operador Or (o) – Operación Disyunción
+Con este operador se obtiene un resultado verdadero cuando alguna de las
+proposiciones es verdadera. Se indica por medio de los siguientes símbolos: {Ú ,+,È }.
+Se conoce como la suma lógica en el Álgebra Booleana. En términos literales se
+comporta como y/o. Por ejemplo:
+1. Sea el siguiente enunciado "Una persona puede entrar al cine si compra su boleto u
+obtiene un pase". Donde.
+p: Entra al cine.
+q: Compra su boleto.
+r: Obtiene un pase.
+La proposición compuesta es p: q v r y la tabla de verdad representativa es:
+.q.r.p: q Ú r
+111
+101
+011
+000
+La única manera en la que no puede ingresar al cine (p = 0), es que no compre su
+boleto (q = 0) y que, además, no obtenga un pase (r = 0).
+2. Con la proposición
+m: Iré al estadio si juega Santa fé o me invitan
+Compuesta por las proposiciones:
+p: Juega Santa Fé
+q: Me invitan al estadio
+Se obtiene la proposición compuesta cuya notación es:
+.m: p v q
+La tabla de verdad correspondiente es:
+.p.q.m: p Ú q
+111
+101
+011
+000
+6Lógica Digital
+En cualquier caso la operación OR o la disyunción se asimila a la operación Unión
+entre conjuntos, por ello en diagrama de Venn se representa, así
+Diagrama de Venn de una Disyunción p n q
+Y en circuito de conmutación, así:
+Representación circuital de una disyunción (OR) p v q
+De tal suerte que es suficiente con que uno de los dos interruptores este cerrado para
+obtener un "1" lógico, es decir, que la lámpara encienda.
+c. Operador Not (no) – Operación negación
+Su función es negar la proposición. Esto significa que sí alguna proposición es
+verdadera y se le aplica el operador not se obtendrá su complemento o negación
+(falso). Este operador se indica por medio de los siguientes símbolos: {‘, Ø ,‐ }. Por
+Ejemplo.
+1. Teniendo la proposición :
+p: La capital de Francia es Paris (p = 1),
+su negación será :
+p’: no es la capital de Francia Paris(p’= 0)
+2. Para
+p: 2x4 = 6 (p = 0)
+p’: 2x4 ≠ 6 (p’ = 1)
+p
+p’
+7Lógica Digital
+10
+01
+Con 1 verdadero y 0 falso.
+También, tiene expresión en la teoría de conjuntos y es el denominado complemento,
+cuyo diagrama de Venn es:
+Diagrama de Venn Operador not ‐ Negación
+En términos de circuito su representación será, como aparece en la figura siguiente,
+Cuando se cierra p ("1" lógico) el led se apaga(falso o "0" lógico) y si p se abre("0"
+lógico) el led se enciende (verdadero o "1" lógico).
+Representación circuital de una negación (NOT) p’
+d. La O exclusiva (Disyunción exclusiva)
+Es el operador que conecta dos proposiciones en el sentido estricto de la "o" literal, o
+es blanco o es negro; es o no es.
+El operador se denomina XOR, cuyo funcionamiento es semejante al operador or con
+la diferencia en que su resultado es verdadero solamente si una de las proposiciones
+es cierta, cuando ambas son verdaderas el resultado es falso, igual si las dos son
+falsas. Se nota como Å. Algunos ejemplos son:
+1. r: Antonio canta o silva
+La proposición está compuesta por las proposiciones
+p: Antonio Canta
+y q: Antonio silva
+8Lógica Digital
+Su notación es: p: r Å q
+Y su tabla de verdad será:
+.p.q.r = p Å q
+110
+101
+011
+000
+La XOR o disyunción exclusiva se asimila a la operación Unión exclusiva entre
+conjuntos, por ello en diagrama de Venn se representa, así
+.p Å q
+Diagrama de Venn de una Disyunción exclusiva (XOR)
+Y en circuito de conmutación, así:
+Representación circuital de una disyunción exclusiva XOR p Å q
+El led será encendido si los interruptores están en posiciones contrarias de cualquier
+otra forma se conservara apagado ("o" lógico)
+e. Combinaciones con negadora.
+Con ayuda de estos operadores básicos se pueden formar los operadores compuestos
+Nand (combinación de los operadores Not y And), Nor (combina operadores Not y Or)
+y Xnor (resultado de Xor y Not).
+
+Operador NAND – Conjunción negada
+9Lógica Digital
+Se utiliza para conectar dos proposiciones que se deben cumplir (ser verdaderas) para
+que se pueda obtener un resultado falso, en cualquier otro caso la proposición
+compuesta es verdadera. Su símbolo es: {(Ù )’, (.)’, (Ç )’}.
+De tal manera que la representación de una proposición queda como sigue:
+p = (q Ù r)’
+Cuya tabla de verdad es complemente contraria a la conjunción
+.q.rp = (q Ù r)’
+110
+101
+011
+001
+Donde: 1 = verdadero 0 = falso
+El operador y negado en la teoría de conjuntos equivale a la operación de
+intersección complementada, por ello se le puede representar en diagrama de Venn
+como lo muestra la figura:
+(q Ù r)’
+El conector NAND también tiene representación circuital con interruptores, como
+aparece en la figura. Si los dos interruptores están cerrados (indicando verdadero o
+"1" lógico) el led se apaga ("0" lógico) de lo contrario está encendida ("1" lógico). Su
+comportamiento es completamente contrario a la conjunción.
+10Lógica Digital
+Circuito con interruptores que representa
+la función lógica Conjunción(NAND) (q Ù r)’
+
+Operador NOR – Disyunción negada
+Es el Inverso de la disyunción, por ello, se obtiene con este operador un resultado
+verdadero en el único caso que se obtenía falso en la disyunción, es decir, cuando las
+proposiciones son falsas. En cualquier otro caso da un resultado falso. Se le indica por
+medio de los siguientes símbolos: {(Ú )’, (+)’, (È )’}. Se conoce como la suma lógica
+inversa en el Álgebra Booleana.
+La proposición compuesta es
+r: (p Ú q)’
+y la tabla de verdad representativa es:
+.p.q.r = (p Ú q)’
+110
+100
+010
+001
+En cualquier caso la operación NOR o la disyunción negada se asimila a la operación
+Unión entre conjuntos, pero, complementada; por ello en diagrama de Venn se
+representa como en la figura siguiente, donde se considera como resultado todo lo
+que en la disyunción no lo era, así
+11Lógica Digital
+Diagrama de Venn de una Disyunción negada
+El circuito de conmutación queda como en la figura siguiente.
+La única forma en que se ACTIVE el led("1" lógico), es que ninguno de los
+interruptores se cierre("1" lógico) el led se conservará APAGADO("0" lógico.
+Representación circuital de una disyunción negada (NOR) (p v q)’
+
+Operador XNOR – Disyunción exclusiva negada
+Es el operador que niega al conector O exclusivo, así , que tan solo es verdadera la
+proposición compuesta sí, o, bien, las dos son verdaderas o las dos son falsas(más
+adelante veremos que también se denomina equivalencia).
+El operador se denomina XNOR, Se nota como, algunos también lo notan como (Å)’.
+La tabla de verdad será:
+pqr = p๏q
+111
+100
+010
+001
+La XNOR o disyunción exclusiva se asimila a la operación Unión exclusiva pero
+complementada, por ello el diagrama de Venn se representa, así
+12Lógica Digital
+Diagrama de Venn de una Disyunción exclusiva (XNOR)
+Y en circuito de conmutación, así:
+Representación circuital de una disyunción exclusiva XNOR p๏q
+De manera que los dos interruptores en "1", o, los dos en "0" originan un estado
+encendido "1" en el led; de lo contrario se conservara apagado "0".
+Otros Conectores y operaciones lógicas
+a.
+Proposiciones condicionales.
+Una proposición condicional, es aquella que está formada por dos proposiciones
+simples (o compuesta) p y q. La cual se indica de la siguiente manera:
+p => q Se lee "Si p, entonces, q"
+Ejemplo.
+El candidato administrativo dice "Si salgo electo Representante al CSU recibirán un
+50% de aumento en su sueldo el próximo año". Una declaración como esta se conoce
+como condicional. Su tabla de verdad es la siguiente:
+Sean
+p: Salgo electo Representante al CSU.
+q: Recibirán un 50% de aumento en su sueldo el próximo año.
+De tal manera que el enunciado se puede expresar de la siguiente manera:
+13Lógica Digital
+p => q
+Su tabla de verdad queda de la siguiente manera:
+.p.q.p => q
+111
+100
+011
+001
+La interpretación de los resultados de la tabla es la siguiente:
+Considere que se desea analizar si el candidato al CSU mintió con la afirmación del
+enunciado anterior.
+Cuando:
+p = 1; significa que salió electo,
+q = 1 recibieron un aumento del 50% en su sueldo,
+Por lo tanto p => q = 1; significa que el candidato dijo la verdad en su campaña.
+Cuando
+p = 1 y q = 0 significa que p => q = 0; el candidato mintió, ya que salió electo y no se
+incrementaron los salarios.
+Cuando
+p = 0 y q = 1 significa que aunque no salió electo hubo un aumento del 50% en su
+salario, que posiblemente fue ajeno al candidato al CSU y por lo tanto; tampoco
+mintió de tal forma que la proposición p => q = 1.
+Cuando
+p = 0 y q = 0 significa que aunque no salió electo, tampoco se dio un aumento del 50%
+en su salario, que posiblemente fue ajeno al candidato al CSU y por lo tanto; tampoco
+mintió de tal forma que la proposición p => q = 1.
+b. Proposición bicondicional.
+Sean p y q dos proposiciones entonces se puede indicar la proposición bicondicional
+de la siguiente manera:
+p <=> q Se lee "p, si solo si, q"
+14Lógica Digital
+Esto significa que p es verdadera si y solo si q es también verdadera. O bien p es falsa
+si y solo si q también lo es. Por Ejemplo; el enunciado siguiente es una proposición
+bicondicional
+"Es buen estudiante, si y solo si; tiene promedio de cinco"
+Donde:
+p: Es buen estudiante.
+q: Tiene promedio de cinco.
+Por lo tanto su tabla de verdad es.
+p.qp <=> q
+111
+100
+010
+001
+La proposición condicional solamente es verdadera si tanto p como q son falsas o bien
+ambas verdaderas. Es la misma Disyunción exclusiva inversa o negada (XNOR).
+Tablas de Verdad
+Estas tablas pueden construirse haciendo una interpretación de los operadores
+lógicos respectivamente. La interpretación corresponde al sentido que estas
+operaciones tienen dentro del razonamiento.
+Puede establecerse una correspondencia entre los resultados de estas tablas y la
+deducción lógico matemática. En consecuencia, las tablas de verdad constituyen un
+método de decisión para chequear si una proposición es o no un teorema.
+Para la construcción de la tabla se asignará el valor 1(uno) a una proposición cierta y 0
+(cero) a una proposición falsa.
+15Lógica Digital
+En la siguiente tabla mostramos las leyes lógicas o tautologías más usadas en el
+cálculo proposicional:
+16Lógica Digital
+Lectura de Profundización:
+ http://logica‐digital.blogspot.com/
+ http://www.itchetumal.edu.mx/paginasvar/Maestros/mduran/Archivos/Unidad%
+202%20Logica.pdf
+Imágenes
+Las imágenes fueron tomadas de www.google.com
+Fuentes:
+
+
+
+
+
+http://algebra.materia.unsl.edu.ar/Teorias/Logica2011.pdf
+http://200.69.103.48/comunidad/profesores/jruiz/jairocd/texto/capitulodos.htm
+http://docencia.udea.edu.co/SistemasDiscretos/contenido/tablas_verdad.html
+http://algebra.materia.unsl.edu.ar/Teorias/Logica2011.pdf
+http://es.wikipedia.org/wiki/Tabla_de_verdad
+17
