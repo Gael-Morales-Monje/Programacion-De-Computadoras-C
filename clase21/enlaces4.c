@@ -51,7 +51,8 @@ int main () {
 			printf("%d,%d ",x[i],y[i]);
 		}
 		printf("z'></animateMotion>");
-		printf("<animateTransform >")
+		printf("<animateTransform attributeName='transform' type='rotate' from='0 %d %d' dur='2s' to='360 %d %d' repeatCount='indefinite' />",x[0],y[0],x[0],y[0]);
+
 
 
 		printf("</g>");
