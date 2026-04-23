@@ -11,7 +11,7 @@ int main() {
 	int i = 0;
 
 	float count = 0;
-	float countV = 0
+	float countV = 0;
 	for (i;i < log; i++){
 		letra = getchar();
 			
@@ -41,7 +41,7 @@ int main() {
 	float prom = count / log;
 	
 
-	float promV + count / countV;
+	float promV = count / countV;
 	printf("%f ------ RESPECTO A LETRAS\n",prom*100);	
 	printf("%f ------ RESPECTO A VOCALES\n",promV*100);	
 
