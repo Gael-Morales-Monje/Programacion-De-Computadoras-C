@@ -75,7 +75,7 @@ int main () {
 	
 	}
 
-		
+	printf("<text x='100' y='50'>Gael Morales Monje, 2216044x</text>");
 	printf("</svg>");
 
 	
