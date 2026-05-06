@@ -10,7 +10,7 @@ int main () {
 
         scanf("%c%d %d %d %d",&letra,&num,&ancho,&alto,&escala);
 
-        int Mr[ancho][alto],Mv[ancho][alto],Ma[ancho][alto];
+        int Mr[alto][ancho],Mv[alto][ancho],Ma[alto][ancho];
         int f,c;
 
 
@@ -35,10 +35,10 @@ int main () {
 
 
 	
-        int Mrt2[ancho][alto],Mvt2[ancho][alto],Mat2[ancho][alto];
+        int Mrt2[alto][ancho],Mvt2[alto][ancho],Mat2[alto][ancho];
 
-        for(f=0;f<alto;f++){
-                for(c=0; c<ancho; c++){
+        for(f=0;f<ancho;f++){
+                for(c=0; c<alto; c++){
                         Mrt2[c][f] = Mrt[f][c];
                         Mvt2[c][f] = Mvt[f][c];
                         Mat2[c][f] = Mat[f][c];
