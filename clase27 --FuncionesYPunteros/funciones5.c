@@ -59,6 +59,9 @@ void DibujaCirculoMov(int radio, int inicio, int Colores[3], float Ruta[1000], i
 	for (x = 0; x < n ; x++) {
 		printf("%d,%f ",x,Ruta[x]);
 	}
+	for (x = n-1;x>=0; x-- ) {
+		printf("%d,%f ",x,Ruta[x]);
+	}
 	printf("'></animateMotion>\n");
 	printf("</circle>\n");
 

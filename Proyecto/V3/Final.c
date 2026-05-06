@@ -2,6 +2,13 @@
 #include<time.h>
 #include<stdlib.h>
 
+
+
+
+void IniciarSVG();
+void TerminarSVG();
+
+
 int main() {
     srand(time(NULL));
 
