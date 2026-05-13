@@ -6,6 +6,26 @@ void TerminarSVG();
 
 
 void DibujarCirculoV2(int cx, int cy,int r, int Color[]);
+void DibujarRutaCircular(float CX[], float CY[], int n);
+
+
+void DibujarRutaCircular(float CX[], float CY[], int n){
+	for (int i = 0; i<n; i++) {
+
+		int cx = (int)CX[i];
+		int cy = (int)CY[i];
+		int r = rand()%5 +5;
+
+		int Col[3];
+		Col[0] = rand()%256;
+		Col[1] = rand()%256;
+		Col[2] = rand()%256;
+		DibujarCirculoV2(cx,cy,r,Col);
+	}
+
+
+}
+
 
 void DibujarCirculoV2(int cx, int cy,int r, int Color[]){
 	
