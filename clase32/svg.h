@@ -63,14 +63,14 @@ void DibujarCirculo() {
 }
 
 void TerminarSVG() {
-	printf("<text x='20' y='20'>Gael Morales Monje, 2216044x</text>\n");
+	printf("<text x='20' y='20'>Gael Morales Monje, 2216044x</text>\n</svg>");
 }
 
 void DibujarCirculoMov(float X[], float Y[], int n, float b) {
 	printf("<circle r='%d' fill='orange'>\n",rand()%5+5);
-	printf("<animateMotion dur='10s' begin='%f'  repeatCount='indefinite' path='M",b);
+	printf("<animateMotion dur='10s' begin='%f' repeatCount='indefinite' path='M",b);
 	ImprimirCoordenadas(X,Y,n);
-	printf("'></animateMotion>\n");
+	printf("z'></animateMotion>\n");
 	printf("</circle>\n");
 }	
 

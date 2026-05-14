@@ -9,3 +9,4 @@ void ImprimirCoordenadas(float X[], float Y[], int n) {
 		i++;
 	}
 }
+
