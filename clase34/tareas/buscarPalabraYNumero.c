@@ -3,21 +3,23 @@
 #include <string.h>
 
 
-void buscarPalabra(char P[]);
+void buscarP(char P[]);
 
 
 int main () {
 
-    buscarPalabra("que");
+    buscarP("que");
 
     return 0;
 }
 
 
 
-void buscarPalabra(char P[]) {
+void buscarP(char P[]) {
 
     char c;
+	int i = 0;
+    
     int k = 0;
 	while((c = getchar())!= EOF) {
         
@@ -30,13 +32,12 @@ void buscarPalabra(char P[]) {
             }
 
             if (n == strlen(P) && (c=getchar()) == ' ') {
-                k = 1;
-                break;
+                k++;
+                n = 1;
             }
-            
         }
 	}
-	printf("%d\n",k);
-    
+	
+    printf("%d\n",k);
 
 }

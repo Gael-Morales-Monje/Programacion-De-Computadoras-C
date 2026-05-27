@@ -4,21 +4,16 @@
 #define MAX 10000
 
 
-void LeerP(char p[MAX]);
 
 
 void LeerPalabraApunta(char *ap);
 
-
 void LeerRenglon(char *ap);
+
+void LeerP(char p[MAX]);
 void LeerParrafo(char *ap);
-
-
-
 void LeerLibro(char *ap);
 
-
-void Findletra();
 
 
 int main() {
