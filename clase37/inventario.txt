@@ -1,0 +1,4 @@
+mazanas 100
+pasa	50
+pasa	50
+pera	90
